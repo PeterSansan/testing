@@ -13,4 +13,7 @@ class TestApp {
     println("demo")
   }
 
+  def testIsReachable(): Unit ={
+    println(HttpUtil.isReachable("127.0.0.1"))
+  }
 }

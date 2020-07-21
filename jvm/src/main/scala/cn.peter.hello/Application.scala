@@ -8,5 +8,8 @@ class Application {
 }
 
 object Application{
-
+  def main(args: Array[String]): Unit = {
+    println("你好")
+    println("hello")
+  }
 }
