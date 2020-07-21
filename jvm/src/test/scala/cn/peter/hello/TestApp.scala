@@ -5,15 +5,24 @@ class TestApp {
 
   }
 
-  def testCat(): Unit ={
+  def testCat(): Unit = {
     println("cat")
   }
 
-  def testDemo(): Unit ={
+  def testDemo(): Unit = {
     println("demo")
   }
 
-  def testIsReachable(): Unit ={
+  def testIsReachable(): Unit = {
     println(HttpUtil.isReachable("127.0.0.1"))
+  }
+
+  def testClock(): Unit = {
+    val s = System.nanoTime()
+    var num = 0
+    for (elem <- (0 until 10000)) {
+      num += elem
+    }
+    println(s"time = ${System.nanoTime() - s}")
   }
 }
