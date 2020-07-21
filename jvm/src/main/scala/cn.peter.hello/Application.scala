@@ -13,6 +13,12 @@ object Application{
     println("hello")
   }
 
+  def test1(): Unit ={
+    val a = 1
+    val b = 2
+    println(a,b)
+  }
+
   def read(): Unit ={
     println("lalala....")
   }
