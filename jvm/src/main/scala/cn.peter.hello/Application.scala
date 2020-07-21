@@ -12,4 +12,8 @@ object Application{
     println("你好")
     println("hello")
   }
+
+  def read(): Unit ={
+    println("lalala....")
+  }
 }
