@@ -18,4 +18,8 @@ object Application{
     val b = 2
     println(a,b)
   }
+
+  def read(): Unit ={
+    println("lalala....")
+  }
 }

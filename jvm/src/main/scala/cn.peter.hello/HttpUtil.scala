@@ -6,4 +6,8 @@ object HttpUtil{
     val a = InetAddress.getByName(host);
     a.isReachable(1000)
   }
+
+  def func(): Unit ={
+    println("null")
+  }
 }
